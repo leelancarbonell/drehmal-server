@@ -66,12 +66,31 @@ These values need to be based on your total system memory. You can find this by 
 
 Now that you know how much system memory you have, you may find that it may be either 32GB or 16GB. 
 - If you have 16GB of total system memory, it is recommended to enter the value `8192 MiB` onto both "Minimum Memory Usage" and "Maximum Memory Usage".
-- If you have 32GB or more of total system memory, it is recommended you enter a value between `8192 MiB` and `16384 MiB` for "Minimum Memory Usage", and `16384 MiB` for "Maximum Memory Usage".
+- If you have 32GB or more of total system memory, it is recommended you enter a value equal or between `8192 MiB` and `16384 MiB` for "Minimum Memory Usage", and `16384 MiB` for "Maximum Memory Usage".
 
-Ensure that the "Minimum Memory Usage" value is less than the "Maximum Memory Usage".
+> [!WARNING]
+> Ensure that the "Minimum Memory Usage" value is less than the "Maximum Memory Usage".
 
 The image below shows where you set your memory allocations and examples of memory allocation values set for a 32GB total memory system.
 
 ![prism launcher java memory allocation](/assets/java%20memory%20allocation.png)
+
+</details>
+
+### Creating and Installing Drehmal Instance
+
+In this section, a new Minecraft instance will created to install Minecraft and the Drehmal modpack. On the Prism Launcher main window, press the option to add a new instance in the top-left labeled "Add Instance". This will open a new window that will let you create your instance and select your modpack. The window will open the `Custom` section by default. Do not edit any settings. Select the section `Modrinth`. On the search bar, enter "drehmal". You probably may not find the modpack at first. If this is the case, try re-entering "drehmal" or typing in "drehmal apotheosis" as well. 
+
+At this point, you should have found the "Drehmal" modpack. Select the modpack and on the bottom-right, you should find a drop-down that allows you to select the version. Ensure `Drehmal 2.2.2f for 1.20.1 - [release]` is selected. Press OK. 
+
+![drehmal modpack selection](/assets/drehmal%20modpack%20select.png)
+
+After pressing OK, the modpack will download and install. After that finishes, your instance should be ready to play. Double click or highlight the icon and press Launch to play.
+
+## (OPTIONAL) Installing QOL Mods
+Although optional, you can also install a variety of quality-of-life mods through to make your experience better.
+
+<details>
+<summary>The following QOL mods are already installed.</summary>
 
 </details>
