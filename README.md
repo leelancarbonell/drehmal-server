@@ -68,8 +68,7 @@ Now that you know how much system memory you have, you may find that it may be e
 - If you have 16GB of total system memory, it is recommended to enter the value `8192 MiB` onto both "Minimum Memory Usage" and "Maximum Memory Usage".
 - If you have 32GB or more of total system memory, it is recommended you enter a value equal or between `8192 MiB` and `16384 MiB` for "Minimum Memory Usage", and `16384 MiB` for "Maximum Memory Usage".
 
-> [!WARNING]
-> Ensure that the "Minimum Memory Usage" value is less than the "Maximum Memory Usage".
+Ensure that the "Minimum Memory Usage" value is less than the "Maximum Memory Usage".
 
 The image below shows where you set your memory allocations and examples of memory allocation values set for a 32GB total memory system.
 
@@ -90,7 +89,5 @@ After pressing OK, the modpack will download and install. After that finishes, y
 ## (OPTIONAL) Installing QOL Mods
 Although optional, you can also install a variety of quality-of-life mods through to make your experience better.
 
-<details>
-<summary>The following QOL mods are already installed.</summary>
-
-</details>
+> [!NOTE]
+> The full mod list for this modpack can be found [here](https://www.drehmal.net/2-2-mod-list). Some mods include performance boosting mods and a shader mod.
