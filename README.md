@@ -54,8 +54,11 @@ If it has been a while since you last played Minecraft, you may need to install 
 </details>
 
 
-### Setting Memory Allocation
-At this point, it may be a good idea to set your memory allocation for Minecraft as well. Open the settings within the Prism Launcher and open the Java section. This is also the window where you set your JRE path. On the middle of the window, you will see the "Memory" section. This section allows you to set your minimum and maximum memory allocation. 
+At this point, if you have not already, it may be a good idea to set your memory allocation for Minecraft as well. The following dropdown header provides instructions on setting you memory allocation values.
+
+<details>
+<summary>Setting Memory Allocation</summary>
+ Open the settings within the Prism Launcher and open the Java section. This is also the window where you set your JRE path. On the middle of the window, you will see the "Memory" section. This section allows you to set your minimum and maximum memory allocation. 
 
 These values need to be based on your total system memory. You can find this by doing either of the following: 
 - Task Manager - Open Task Manager by pressing the following hot-key `Ctrl + Shift + Esc`. Once open, select the "Performance" icon on the left of the window. Under "Performance", select "Memory". This should open the usage graph for your system memory. On the top-right of the graph, you will see the your total amount of system memory. 
@@ -70,3 +73,5 @@ Ensure that the "Minimum Memory Usage" value is less than the "Maximum Memory Us
 The image below shows where you set your memory allocations and examples of memory allocation values set for a 32GB total memory system.
 
 ![prism launcher java memory allocation](/assets/java%20memory%20allocation.png)
+
+</details>
