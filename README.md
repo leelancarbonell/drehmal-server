@@ -15,6 +15,7 @@ If this is your first time installing the Prism Launcher, open the header below 
 
 <details>
   <summary>Logging into Minecraft</summary>
+
   To log into your Minecraft account, you will have to log into the Prism Launcher using the Microsoft account associated with your Minecraft license. Open the Prism Launcher and you should find the Accounts button on the top-right of the application as shown below. Press it and select the option "Manage Accounts..." as shown on the image below.
 
   ![prism launcher manage accounts](/assets/manage%20accounts.png)
@@ -35,6 +36,7 @@ If this is your first time installing the Prism Launcher, open the header below 
   - Use your Microsoft account to log into Xbox [here](https://www.xbox.com/en-US/).
 
   Once you have done the above. Attempt to log into your Microsoft account through the Prism Launcher again. If you are still having issues, let me know. 
+  
 </details>
 
 
