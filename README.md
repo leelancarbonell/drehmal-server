@@ -102,8 +102,9 @@ To install a mod, search for the mod using the search bar and select it by click
 The following QOL mods are not required, but can be installed make your experience better:
 
 * Distant Horizons - Allows you to render terrain at extreme distances using LODs without significant performance hits.
---OR--
+
+  --OR--
 * Voxy - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism. The download for this mod can be found [here](https://github.com/LunaticWasTaken/voxy). **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders that *should* work with Voxy pre-installed in the modpack.
 * Presence-Footsteps - Revamped sounds and audio for block interactions. 
 * AmbientSounds - Adds a rich ambience to the minecraft world.
-* Falling Leaves - dds a neat little particle effect to leaf blocks.
+* Falling Leaves - Adds a neat little particle effect to leaf blocks.
