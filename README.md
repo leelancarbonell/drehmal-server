@@ -36,13 +36,17 @@ If this is your first time installing the Prism Launcher, open the header below 
   - Use your Microsoft account to log into Xbox [here](https://www.xbox.com/en-US/).
 
   Once you have done the above. Attempt to log into your Microsoft account through the Prism Launcher again. If you are still having issues, let me know. 
-  
+
 </details>
 
 
 If it has been a while since you last played Minecraft, you may need to install the Java Runtime Environment (JRE) again. Open the header below for instructions on installing JRE.
 
 <details>
-  <summary>Installing JRE</summary>
-  
+  <summary>Installing Java</summary>
+
+  The download page for JRE can be found [here](https://www.java.com/en/download/manual.jsp). For Windows users, you can either download using the "Windows Online" or "Windows Offline (64-bit)" link. I would recommend that you use the "Windows Offline (64-bit)" link as you can ensure you are installing the 64-bit version. Download and run the installer. Follow the instructions as indicated by the installer. You do not need to change any options unless you wish to. Once you have completed installing Java, open the Settings on the Prism Launcher. On the left side of the Settings window, select Java. Under "Java Executable" you should see a path that points to the executable "javaw.exe". If you installed JRE correctly, you may already see a path that points to javaw.exe. If not, you may need to click on "Detect" to find your installation of JRE. Select the runtime that is within your Program Files, and the highest version value. Recommended version is equal to or greater than 17.0.**. Select your desired runtime and press OK. 
+
 </details>
+
+At this point, it may be a good idea to set your memory allocation for Minecraft as well. 
