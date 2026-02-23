@@ -15,7 +15,10 @@ If this is your first time installing the Prism Launcher, open the header below 
 
 <details>
   <summary>Logging into Minecraft using Prism</summary>
+  To log into your Minecraft account, open the Prism Launcher and you should find the Accounts button on the top-right of the application as shown below.
+  ![prism launcher accounts button](/assets/accounts%20button.png)
   
+
 </details>
 
 If it has been a while since you last played Minecraft, you may need to install the Java Runtime Environment (JRE) again. Open the header below for instructions on installing JRE.
