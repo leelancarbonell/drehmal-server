@@ -86,8 +86,26 @@ At this point, you should have found the "Drehmal" modpack. Select the modpack a
 
 After pressing OK, the modpack will download and install. After that finishes, your instance should be ready to play. Double click or highlight the icon and press Launch to play.
 
-## (OPTIONAL) Installing QOL Mods
+## (OPTIONAL) Installing QOL Mods, shaders, and resource packs.
 Although optional, you can also install a variety of quality-of-life mods through to make your experience better.
 
 > [!NOTE]
-> The full mod list for this modpack can be found [here](https://www.drehmal.net/2-2-mod-list). Some mods include performance boosting mods and a shader mod.
+> The full mod list for this modpack can be found [here](https://www.drehmal.net/2-2-mod-list). Performance boosting mods, dynamic lighting, zoom, and a shader engine is already included.
+
+
+To install additional mods, select your instance on the main Prism Launcher window by clicking on the instance icon once, and clicking "Edit" on the right side of the window. A window that changes the settings for this instance should open. On the left side of the window, select the "Mods" section. On this section, you will see the mods installed on this instance. To install more mods, press "Download Mods" on the right side of the window. A window opens that allows you to search for, download, and install mods easily. 
+
+To install a mod, search for the mod using the search bar and select it by clicking on the desired mod. The details of the mod will appear on the pane at the right side of the window. Select the desired version of the mod using the drop-down menu at the bottom-right of the window if needed, and press "Select mod for download" to check the mod for download and installation. From here, you can install additional mods if you wish. 
+
+
+
+The following QOL mods are not required, but recommended to make your experience better:
+
+* Xaero's Minimap - An extensive minimap.
+* Xaero's World Map - A fullscreen map mod.
+* Simple Voice Chat - TODO: Consider making this a required mod.
+* AppleSkin - Food/Hunger-related HUD improvements. Displays saturation.
+* Distant Horizons - Allows you to render terrain at extreme distances using LODs without significant performance hits.
+--OR--
+* Voxy - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. **Be warned!! Only certain shaders are compatible with this mod.** A backport is required and cannot be found using Prism. The download for this mod can be found [here](https://github.com/LunaticWasTaken/voxy).
+
