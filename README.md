@@ -46,7 +46,27 @@ If it has been a while since you last played Minecraft, you may need to install 
   <summary>Installing Java</summary>
 
   The download page for JRE can be found [here](https://www.java.com/en/download/manual.jsp). For Windows users, you can either download using the "Windows Online" or "Windows Offline (64-bit)" link. I would recommend that you use the "Windows Offline (64-bit)" link as you can ensure you are installing the 64-bit version. Download and run the installer. Follow the instructions as indicated by the installer. You do not need to change any options unless you wish to. Once you have completed installing Java, open the Settings on the Prism Launcher. On the left side of the Settings window, select Java. Under "Java Executable" you should see a path that points to the executable "javaw.exe". If you installed JRE correctly, you may already see a path that points to javaw.exe. If not, you may need to click on "Detect" to find your installation of JRE. Select the runtime that is within your Program Files, and the highest version value. Recommended version is equal to or greater than 17.0.**. Select your desired runtime and press OK. 
+  
+  The image below shows where you can find how you set your Java runtime and an example of a valid path. 
+
+  ![prism launcher java runtime path](/assets/java%20runtime%20path.png) 
 
 </details>
 
-At this point, it may be a good idea to set your memory allocation for Minecraft as well. 
+
+### Setting Memory Allocation
+At this point, it may be a good idea to set your memory allocation for Minecraft as well. Open the settings within the Prism Launcher and open the Java section. This is also the window where you set your JRE path. On the middle of the window, you will see the "Memory" section. This section allows you to set your minimum and maximum memory allocation. 
+
+These values need to be based on your total system memory. You can find this by doing either of the following: 
+- Task Manager - Open Task Manager by pressing the following hot-key `Ctrl + Shift + Esc`. Once open, select the "Performance" icon on the left of the window. Under "Performance", select "Memory". This should open the usage graph for your system memory. On the top-right of the graph, you will see the your total amount of system memory. 
+- System Information - Open the System Information control panel by searching for `sysinfo` using Windows search and selecting "System Information". The System Information window should already have the "System Summary" open. If not, select it on the left pane. Under System Summary, you will find the "Total Physical Memory" and you will see a value to the right of that. That value is your total system memory.
+
+Now that you know how much system memory you have, you may find that it may be either 32GB or 16GB. 
+- If you have 16GB of total system memory, it is recommended to enter the value `8192 MiB` onto both "Minimum Memory Usage" and "Maximum Memory Usage".
+- If you have 32GB or more of total system memory, it is recommended you enter a value between `8192 MiB` and `16384 MiB` for "Minimum Memory Usage", and `16384 MiB` for "Maximum Memory Usage".
+
+Ensure that the "Minimum Memory Usage" value is less than the "Maximum Memory Usage".
+
+The image below shows where you set your memory allocations and examples of memory allocation values set for a 32GB total memory system.
+
+![prism launcher java memory allocation](/assets/java%20memory%20allocation.png)
