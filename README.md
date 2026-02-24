@@ -130,7 +130,7 @@ The image below shows the Import menu when creating a new instance with an examp
 
 Once you have located the modpack on the Import menu, press "OK" to install the modpack and create the instance. Once created, your instance should be ready to play. Double click or highlight the icon and press "Launch" to play. On your first launch of this instance, Prism will also download and install Minecraft.
 
-
+You are now ready to play Minecraft on the Drehmal: Apotheosis survival-adventure map server!
 
 <!--
 In this section, a new Minecraft instance will created to install Minecraft and the Drehmal modpack. On the Prism Launcher main window, press the option to add a new instance in the top-left labeled "Add Instance". This will open a new window that will let you create your instance and select your modpack. The window will open the `Custom` section by default. Do not edit any settings. Select the section `Modrinth`. On the search bar, enter "drehmal". You probably may not find the modpack at first. If this is the case, try re-entering "drehmal" or typing in "drehmal apotheosis" as well. 
