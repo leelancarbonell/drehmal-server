@@ -11,7 +11,7 @@ The main page for the map can be found [here](https://www.drehmal.net/), and the
 ## Installing and Setting Up Prism
 It is recommended that you install the required modpack for this custom map through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. If you have not yet installed and configured Prism, the installer can be directly downloaded using the link [here](https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe).
 
-If this is your first time installing the Prism Launcher, open the header below for instructions on how to log into your Minecraft account.
+If this is your first time installing the Prism Launcher, open the headers below for directions on how to configure Prism before creating the modded instance.
 
 <details>
   <summary>Logging into Minecraft</summary>
@@ -40,8 +40,6 @@ If this is your first time installing the Prism Launcher, open the header below 
 </details>
 
 
-If it has been a while since you last played Minecraft, you may need to install the Java Runtime Environment (JRE) again. Open the header below for instructions on installing JRE.
-
 <details>
   <summary>Installing Java</summary>
 
@@ -53,8 +51,6 @@ If it has been a while since you last played Minecraft, you may need to install 
 
 </details>
 
-
-At this point, if you have not already, it may be a good idea to set your memory allocation for Minecraft as well. The following dropdown header provides instructions on setting you memory allocation values.
 
 <details>
 <summary>Setting Memory Allocation</summary>
@@ -81,7 +77,7 @@ The image below shows where you set your memory allocations and examples of memo
 With a fully setup Prism Launcher client, an instance can now be created which will contain your modded Minecraft installation. While an official modpack already exists for Drehmal, a custom modpack was created to include a few more quality-of-life mods and shaders. If you have not already, please download the latest release of my custom modpack within the "Releases" section on the right side of the top of this page. A list of those mods plus details can be seen in the collapsed section below.
 
 <details>
-<summary>Mods and Shaders</summary>
+<summary>Added Mods and Shaders</summary>
 
 Mods:
 - AppleSkin - Hunger-related HUD improvements
@@ -93,6 +89,7 @@ Mods:
 - Simple Voice Chat - Voice Chat within Minecraft
 - Xaero's Minimap - Minimap
 - Xaero's World Map - Fullscreen Map
+- You're in Grave Danger - Death grave
 
 Shaders: (These shaders *should* all be compatible with the Voxy render distance extending mod)
 - Bliss Shader - Unstable
@@ -132,7 +129,7 @@ After pressing OK, the modpack will download and install. After that finishes, y
 -->
 
 ## (OPTIONAL) Installing Additional Mods, Shaders, and Resource Packs
-Although optional, you can also install a variety of quality-of-life mods through to make your experience better.
+Although optional, you can also install a variety of client-side, quality-of-life mods through to make your experience better.
 
 > [!NOTE]
 > The full mod list for this modpack can be found [here](https://www.drehmal.net/2-2-mod-list). Performance boosting mods, dynamic lighting, zoom, and a shader engine is already included.
@@ -140,18 +137,26 @@ Although optional, you can also install a variety of quality-of-life mods throug
 
 To install additional mods, select your instance on the main Prism Launcher window by clicking on the instance icon once, and clicking "Edit" on the right side of the window. A window that changes the settings for this instance should open. On the left side of the window, select the "Mods" section. On this section, you will see the mods installed on this instance. To install more mods, press "Download Mods" on the right side of the window. A window opens that allows you to search for, download, and install mods easily. 
 
-To install a mod, search for the mod using the search bar and select it by clicking on the desired mod. The details of the mod will appear on the pane at the right side of the window. Select the desired version of the mod using the drop-down menu at the bottom-right of the window if needed, and press "Select mod for download" to check the mod for download and installation. From here, you can install additional mods if you wish. 
+> [!WARNING]
+> To maintain modpack consistency, it is highly recommended that you find and download your mods through Modrinth. However, if the specific mod you are looking for is exclusive to CurseForge, you can change that on the left side of the wind
 
+Search for the mod using the search bar and select it by clicking on the desired mod. The details of the mod will appear on the pane at the right side of the window. Select the desired version of the mod using the drop-down menu at the bottom-right of the window if needed, and press "Select mod for download" to check the mod for download and installation. From here, you can install additional mods if you wish. 
 
+![prism mod installer](/assets/mod%20installer.png)
 
-The following QOL mods are not required, but can be installed make your experience better:
+Some examples of QOL mods that can elevate your Minecraft experience:
 
-* Distant Horizons - Allows you to render terrain at extreme distances using LODs without a significant performance hit.
+* Distant Horizons - Allows you to render terrain at extreme distances using LODs without a significant performance hit. All shaders should be compatible with this mod.
 * --OR--
-* Voxy - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism. The download for this mod can be found [here](https://github.com/LunaticWasTaken/voxy). **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders that *should* work with Voxy pre-installed in the modpack.
+* Voxy - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism. The repository for this mod can be found [here](https://github.com/LunaticWasTaken/voxy). **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders pre-installed within the modpack that *should* work with Voxy.
 * Presence-Footsteps - Revamped sounds and audio for block interactions. 
 * AmbientSounds - Adds a rich ambience to the minecraft world.
 * Falling Leaves - Adds a neat little particle effect to leaf blocks.
+* Sound Physics Remastered - Adds realistic sound effects.
 
 
 ## Credits
+* Prism Launcher - https://prismlauncher.org/
+* Drehmal - https://www.drehmal.net/
+* Modrinth - https://modrinth.com/
+* Voxy Compatible Shaders - https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953
