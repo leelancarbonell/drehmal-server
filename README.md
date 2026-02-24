@@ -4,7 +4,7 @@ This GitHub page serves as a guide to install the client for my Drehmal survival
 ## Drehmal Apotheosis
 ![Drehmal Apotheosis landscape image](https://wiki.drehmal.cyou/assets/img/primal_start.png)
 
-This server will be running the Drehmal: Apotheosis survival-adventure map. A massive, rich open world with an original storyline, many custom gameplay features, expansive lore, and more. The most recent version of Drehmal is v2.2.2: Apotheosis, built for Minecraft Java Edition 1.20.1. 
+This server will be running the Drehmal: Apotheosis survival-adventure map. A massive, rich open world with an original storyline, many custom gameplay features, expansive lore, and more. The client will be using a custom curated version of Drehmal's latest modpack, Apotheosis v2.2.2, created for Minecraft Java Edition 1.20.1.
 
 The main page for the map and the wiki page can be found below.
 
@@ -12,7 +12,7 @@ The main page for the map and the wiki page can be found below.
 * [Wiki Page](https://wiki.drehmal.cyou/)
 
 ## Installing and Setting Up Prism
-It is recommended that you install the required modpack for this custom map through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. If you have not yet installed and configured Prism, the installer can be directly downloaded using the link below.
+It is highly recommended that you install the required modpack for this custom map through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. If you have not yet installed and configured Prism, the installer can be directly downloaded using the link below.
 
 * [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe)
 
@@ -21,7 +21,7 @@ If this is your first time installing the Prism Launcher, open the headers below
 <details>
   <summary>Logging into Minecraft</summary>
 
-  To log into your Minecraft account, you will have to log into the Prism Launcher using the Microsoft account associated with your Minecraft license. Open the Prism Launcher and you should find the Accounts button on the top-right of the application as shown below. Press it and select the option "Manage Accounts..." as shown on the image below.
+  <br>To log into your Minecraft account, you will have to log into the Prism Launcher using the Microsoft account associated with your Minecraft license. Open the Prism Launcher and you should find the Accounts button on the top-right of the application as shown below. Press it and select the option "Manage Accounts..." as shown on the image below.
 
   ![prism launcher manage accounts](/assets/manage%20accounts.png)
 
@@ -44,11 +44,10 @@ If this is your first time installing the Prism Launcher, open the headers below
 
 </details>
 
-
 <details>
   <summary>Installing Java</summary>
 
-  The download page for JRE can be found [here](https://www.java.com/en/download/manual.jsp). For Windows users, you can either download using the "Windows Online" or "Windows Offline (64-bit)" link. I would recommend that you use the "Windows Offline (64-bit)" link as you can ensure you are installing the 64-bit version. Download and run the installer. Follow the instructions as indicated by the installer. You do not need to change any options unless you wish to. Once you have completed installing Java, open the Settings on the Prism Launcher. On the left side of the Settings window, select Java. Under "Java Executable" you should see a path that points to the executable "javaw.exe". If you installed JRE correctly, you may already see a path that points to javaw.exe. If not, you may need to click on "Detect" to find your installation of JRE. Select the runtime that is within your Program Files, and the highest version value. Recommended version is equal to or greater than 17.0.**. Select your desired runtime and press OK. 
+  <br>The download page for JRE can be found [here](https://www.java.com/en/download/manual.jsp). For Windows users, you can either download using the "Windows Online" or "Windows Offline (64-bit)" link. I would recommend that you use the "Windows Offline (64-bit)" link as you can ensure you are installing the 64-bit version. Download and run the installer. Follow the instructions as indicated by the installer. You do not need to change any options unless you wish to. Once you have completed installing Java, open the Settings on the Prism Launcher. On the left side of the Settings window, select Java. Under "Java Executable" you should see a path that points to the executable "javaw.exe". If you installed JRE correctly, you may already see a path that points to javaw.exe. If not, you may need to click on "Detect" to find your installation of JRE. Select the runtime that is within your Program Files, and the highest version value. Recommended version is equal to or greater than 17.0.**. Select your desired runtime and press OK. 
   
   The image below shows where you can find how you set your Java runtime and an example of a valid path. 
 
@@ -59,7 +58,7 @@ If this is your first time installing the Prism Launcher, open the headers below
 
 <details>
 <summary>Setting Memory Allocation</summary>
- Open the settings within the Prism Launcher and open the Java section. This is also the window where you set your JRE path. On the middle of the window, you will see the "Memory" section. This section allows you to set your minimum and maximum memory allocation. 
+ <br>Open the settings within the Prism Launcher and open the Java section. This is also the window where you set your JRE path. On the middle of the window, you will see the "Memory" section. This section allows you to set your minimum and maximum memory allocation. 
 
 These values need to be based on your total system memory. You can find this by doing either of the following: 
 - Task Manager - Open Task Manager by pressing the following hot-key `Ctrl + Shift + Esc`. Once open, select the "Performance" icon on the left of the window. Under "Performance", select "Memory". This should open the usage graph for your system memory. On the top-right of the graph, you will see the your total amount of system memory. 
@@ -83,7 +82,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 
 <details>
 <summary>Added Mods and Shaders</summary>
-The following mods and shaders have been added in addition to the base modpack.
+<br>The following mods and shaders have been added in addition to the base modpack.
 
 Mods:
 - AppleSkin - Hunger-related HUD improvements
