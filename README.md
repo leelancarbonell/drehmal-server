@@ -6,10 +6,15 @@ This GitHub page serves as a guide to install the client for my Drehmal survival
 
 This server will be running the Drehmal: Apotheosis survival-adventure map. A massive, rich open world with an original storyline, many custom gameplay features, expansive lore, and more. The most recent version of Drehmal is v2.2.2: Apotheosis, built for Minecraft Java Edition 1.20.1. 
 
-The main page for the map can be found [here](https://www.drehmal.net/), and the wiki page for the map can be found [here](https://wiki.drehmal.cyou/).
+The main page for the map and the wiki page can be found below.
+
+* [Drehmal](https://www.drehmal.net/)
+* [Wiki Page](https://wiki.drehmal.cyou/)
 
 ## Installing and Setting Up Prism
-It is recommended that you install the required modpack for this custom map through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. If you have not yet installed and configured Prism, the installer can be directly downloaded using the link [here](https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe).
+It is recommended that you install the required modpack for this custom map through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. If you have not yet installed and configured Prism, the installer can be directly downloaded using the link below.
+
+* [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe)
 
 If this is your first time installing the Prism Launcher, open the headers below for directions on how to configure Prism before creating the modded instance.
 
@@ -139,17 +144,21 @@ Although optional, you can also install a variety of client-side, quality-of-lif
 To install additional mods, select your instance on the main Prism Launcher window by clicking on the instance icon once, and clicking "Edit" on the right side of the window. A window that changes the settings for this instance should open. On the left side of the window, select the "Mods" section. On this section, you will see the mods installed on this instance. To install more mods, press "Download Mods" on the right side of the window. A window opens that allows you to search for, download, and install mods easily. 
 
 > [!WARNING]
-> To maintain modpack consistency, it is highly recommended that you find and download your mods through Modrinth. However, if the specific mod you are looking for is exclusive to CurseForge, you can change that on the left side of the wind
+> To maintain modpack consistency, it is highly recommended that you find and download your mods through Modrinth. However, if the specific mod you are looking for is exclusive to CurseForge, you can change that on the left side of the window.
 
 Search for the mod using the search bar and select it by clicking on the desired mod. The details of the mod will appear on the pane at the right side of the window. Select the desired version of the mod using the drop-down menu at the bottom-right of the window if needed, and press "Select mod for download" to check the mod for download and installation. From here, you can install additional mods if you wish. 
 
 ![prism mod installer](/assets/mod%20installer.png)
 
+> [!IMPORTANT]
+> If you want to install a mod that is not found in Modrinth and CurseForge, you will have to manually download and install it through Prism. Download your desired `.jar` mod file and open the "Mods" section on the Console window found when editing your instance. Instead of opening the mod downloader using "Download Mods", click on "Add File". This will open the file picker window where you will need to locate and open the mod file you just downloaded. After selecting and opening your mod file through the file picker, you will then see the mod you installed within the list of installed mods. 
+
+
 Some examples of QOL mods that can elevate your Minecraft experience:
 
 * Distant Horizons - Allows you to render terrain at extreme distances using LODs without a significant performance hit. All shaders should be compatible with this mod.
 * --OR--
-* Voxy - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism. The repository for this mod can be found [here](https://github.com/LunaticWasTaken/voxy). **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders pre-installed within the modpack that *should* work with Voxy.
+* [Voxy](https://github.com/LunaticWasTaken/voxy) - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism, and must be installed manually through their repository. **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders pre-installed within the modpack that *should* work with Voxy.
 * Presence-Footsteps - Revamped sounds and audio for block interactions. 
 * AmbientSounds - Adds a rich ambience to the minecraft world.
 * Falling Leaves - Adds a neat little particle effect to leaf blocks.
