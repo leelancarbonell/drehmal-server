@@ -121,9 +121,12 @@ To get started on creating your new instance, make sure you are on the main wind
 > [!IMPORTANT]
 > To find the custom modpack file, locate the "Releases" section on the right side of the main repository webpage. Click on the link for the latest release. On the latest release page, you will find details about this release and the `.mrpack` modpack file. **You do not need to download the file.** Copy the link address to the modpack file and paste it to the "Local file or link to a direct download:" text input within the import menu in Prism. 
 
-The image below shows the Import menu when creating a new instance with an example link pointing to the modpack. **DO NOT USE THE LINK IN THE SCREENSHOT. This may differ from the latest release!!**
+The image below shows the Import menu when creating a new instance with an example link pointing to the modpack.
 
 ![prism import modpack](/assets/import%20modpack.png)
+
+> [!CAUTION]
+> **DO NOT USE THE LINK FOUND IN THE SCREENSHOT. It links to a development build and is different from latest release!!**
 
 Once you have located the modpack on the Import menu, press "OK" to install the modpack and create the instance. Once created, your instance should be ready to play. Double click or highlight the icon and press "Launch" to play. On your first launch of this instance, Prism will also download and install Minecraft.
 
