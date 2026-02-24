@@ -47,7 +47,12 @@ If this is your first time installing the Prism Launcher, open the headers below
 <details>
   <summary>Installing Java</summary>
 
-  <br>The download page for JRE can be found [here](https://www.java.com/en/download/manual.jsp). For Windows users, you can either download using the "Windows Online" or "Windows Offline (64-bit)" link. I would recommend that you use the "Windows Offline (64-bit)" link as you can ensure you are installing the 64-bit version. Download and run the installer. Follow the instructions as indicated by the installer. You do not need to change any options unless you wish to. Once you have completed installing Java, open the Settings on the Prism Launcher. On the left side of the Settings window, select Java. Under "Java Executable" you should see a path that points to the executable "javaw.exe". If you installed JRE correctly, you may already see a path that points to javaw.exe. If not, you may need to click on "Detect" to find your installation of JRE. Select the runtime that is within your Program Files, and the highest version value. Recommended version is equal to or greater than 17.0.**. Select your desired runtime and press OK. 
+  <br>
+  The download page for Java can be found below.
+
+  * [Java Runtime Environment Download Page](https://www.java.com/en/download/manual.jsp)
+  
+  For Windows users, you can either download using the "Windows Online" or "Windows Offline (64-bit)" link. It is recommend that you use the "Windows Offline (64-bit)" link as you can ensure you are installing the 64-bit version. Download and run the installer. Follow the instructions as indicated by the installer. You do not need to change any options unless you wish to. Once you have completed installing Java, open the Settings on the Prism Launcher. On the left side of the Settings window, select Java. Under "Java Executable" you should see a path that points to the executable "javaw.exe". If you installed JRE correctly, you may already see a path that points to javaw.exe. If not, you may need to click on "Detect" to find your installation of JRE. Select the runtime that is within your Program Files, and the highest version value. Recommended version is equal to or greater than 17.0.**. Select your desired runtime and press OK. 
   
   The image below shows where you can find how you set your Java runtime and an example of a valid path. 
 
