@@ -78,6 +78,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 
 <details>
 <summary>Added Mods and Shaders</summary>
+The following mods and shaders have been added in addition to the base modpack.
 
 Mods:
 - AppleSkin - Hunger-related HUD improvements
@@ -154,6 +155,11 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 * Falling Leaves - Adds a neat little particle effect to leaf blocks.
 * Sound Physics Remastered - Adds realistic sound effects.
 
+## Updating Modpack
+
+In case the modpack is updated with more mods post-release, you will have to download the modpack and import it into your existing instance. 
+
+Find the latest custom modpack release within the "Releases" section on the right side of the main repository webpage. Unlike creating a new instance where you simply copy and pasted the file link, you will have to download the `.mrpack` modpack file. Click on the file link to download the file. Once downloaded, open Prism and select your existing instance that contains your outdated modpack by single clicking on the associated icon, and click "Edit" on the right side of the main window. Once the Console window for your instance opens, select "Modrinth" on the left side of the window, and click "Update From File". A file selection window should have opened. Locate the `.mrpack` modpack file you just downloaded and open it. Prism will then automatically install the new mods. Prism will then prompt you if the update is successful. From here, you can launch your instance and start playing with the updated modpack.
 
 ## Credits
 * Prism Launcher - https://prismlauncher.org/
