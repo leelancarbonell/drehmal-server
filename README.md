@@ -3,6 +3,8 @@ This GitHub page serves as a guide to install the client for my Drehmal survival
 
 ## Drehmal Apotheosis
 ![Drehmal Apotheosis landscape image](https://wiki.drehmal.cyou/assets/img/primal_start.png)
+![Drehmal Apotheosis ice](https://static.wixstatic.com/media/a539b0_26044d9ff9f343deaebcc6df8bee7436~mv2.png/v1/fit/w_2380,h_1169,q_90,enc_avif,quality_auto/a539b0_26044d9ff9f343deaebcc6df8bee7436~mv2.png)
+![Drehmal Apotheosis lava castle](https://static.wixstatic.com/media/a539b0_ac13eaceee51493da4d7a43092289553~mv2.png/v1/fit/w_1920,h_1080,q_90,enc_avif,quality_auto/a539b0_ac13eaceee51493da4d7a43092289553~mv2.png)
 
 This server will be running the Drehmal: Apotheosis survival-adventure map. A massive, rich open world with an original storyline, many custom gameplay features, expansive lore, and more. The client will be using a custom curated version of Drehmal's latest modpack, Apotheosis v2.2.2, created for Minecraft Java Edition 1.20.1.
 
