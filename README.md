@@ -185,7 +185,8 @@ In case the modpack is updated with more mods post-release, you will have to dow
 Click on the file link to download the file. Once downloaded, open Prism and select your existing instance that contains your outdated modpack by single clicking on the associated icon, and click "Edit" on the right side of the main window. Once the Console window for your instance opens, select "Modrinth" on the left side of the window, and click "Update From File". A file picker window should have opened. Locate the updated `.mrpack` modpack file you just downloaded and open it. Prism will then automatically install the new mods and will then prompt you if the update is successful. From here, installation should be successful, and you can launch your instance and start playing with the updated modpack.
 
 ## Credits
-* Prism Launcher - https://prismlauncher.org/
+* Images in the introduction section are taken from the Drehmal website and is rightfully owned by the Drehmal team and Lux Nova Studios.
 * Drehmal - https://www.drehmal.net/
+* Prism Launcher - https://prismlauncher.org/
 * Modrinth - https://modrinth.com/
 * Voxy Compatible Shaders - https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953
