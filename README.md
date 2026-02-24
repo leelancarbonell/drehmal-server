@@ -1,5 +1,5 @@
 # Drehmal Apotheosis Server
-This GitHub page serves as a guide to install the client for my Drehmal survival adventure map server and as a repository that holds all the required and optional mods. This also serves as practice for markdown documentation for you dickheads who think I'm doin too much.
+This GitHub page serves as a guide to install the client for my Drehmal survival adventure map server and as a repository that holds all the required and optional mods. This also serves as practice for markdown documentation.
 
 ## Drehmal Apotheosis
 ![Drehmal Apotheosis landscape image](https://wiki.drehmal.cyou/assets/img/primal_start.png)
@@ -8,8 +8,8 @@ This server will be running the Drehmal: Apotheosis survival-adventure map. A ma
 
 The main page for the map can be found [here](https://www.drehmal.net/), and the wiki page for the map can be found [here](https://wiki.drehmal.cyou/).
 
-## Install Guide
-It is recommended that you install the map and the required modpack through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. The map and modpack can easily be found and installed using Modrinth within the launcher. If you have not yet installed the Prism Launcher, the installer can be directly downloaded using the link [here](https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe).
+## Installing and Setting Up Prism
+It is recommended that you install the required modpack for this custom map through the Prism Launcher. The Prism Launcher is an all-in-one launcher that allows you to install modpacks, resource packs, shader packs, maps and extensively configure Minecraft. If you have not yet installed and configured Prism, the installer can be directly downloaded using the link [here](https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe).
 
 If this is your first time installing the Prism Launcher, open the header below for instructions on how to log into your Minecraft account.
 
@@ -76,8 +76,51 @@ The image below shows where you set your memory allocations and examples of memo
 
 </details>
 
-### Creating and Installing Drehmal Instance
+## Creating Your Minecraft Instance
 
+With a fully setup Prism Launcher client, an instance can now be created which will contain your modded Minecraft installation. While an official modpack already exists for Drehmal, a custom modpack was created to include a few more quality-of-life mods and shaders. If you have not already, please download the latest release of my custom modpack within the "Releases" section on the right side of the top of this page. A list of those mods plus details can be seen in the collapsed section below.
+
+<details>
+<summary>Mods and Shaders</summary>
+
+Mods:
+- AppleSkin - Hunger-related HUD improvements
+- Axiom - World Edit Utility
+- BetterF3 - Better Debug Menu
+- Cloth Config - API Dependency for BetterF3
+- Jade - "What am I looking at" UI
+- Just Enough Items - Item and recipe menu within your inventory
+- Simple Voice Chat - Voice Chat within Minecraft
+- Xaero's Minimap - Minimap
+- Xaero's World Map - Fullscreen Map
+
+Shaders: (These shaders *should* all be compatible with the Voxy render distance extending mod)
+- Bliss Shader - Unstable
+- BSL Shaders
+- Eclipse Shader - Fork of Bliss, HIGHLY RECOMMENDED, Unstable
+- I Like Vanilla
+- Scrumptious Shayders
+- Shrimple
+- Solas Shader
+- Sundial Lite
+
+</details>
+
+
+To get started on creating your new instance, make sure you are on the main window on Prism, and select "Add Instance" on the top-left of the window. This will open a new window that will let you create your instance and select your modpack. Enter the name you want your instance to be labeled, and then select "Import" on the left side of the window. Here you will enter the location of the custom modpack. 
+
+> [!IMPORTANT]
+> To find the custom modpack file, locate the "Releases" section on the right side of the main repository webpage. Click on the link for the latest release. On the latest release page, you will find details about this release and the `.mrpack` modpack file. **You do not need to download the file.** Copy the link address to the modpack file and paste it to the "Local file or link to a direct download:" text input within the import menu in Prism. 
+
+The image below shows the Import menu when creating a new instance with an example link pointing to the modpack. **DO NOT USE THE LINK IN THE SCREENSHOT. This may differ from the latest release!!**
+
+![prism import modpack](/assets/import%20modpack.png)
+
+Once you have located the modpack on the Import menu, press "OK" to install the modpack and create the instance. Once created, your instance should be ready to play. Double click or highlight the icon and press "Launch" to play. On your first launch of this instance, Prism will also download and install Minecraft.
+
+
+
+<!--
 In this section, a new Minecraft instance will created to install Minecraft and the Drehmal modpack. On the Prism Launcher main window, press the option to add a new instance in the top-left labeled "Add Instance". This will open a new window that will let you create your instance and select your modpack. The window will open the `Custom` section by default. Do not edit any settings. Select the section `Modrinth`. On the search bar, enter "drehmal". You probably may not find the modpack at first. If this is the case, try re-entering "drehmal" or typing in "drehmal apotheosis" as well. 
 
 At this point, you should have found the "Drehmal" modpack. Select the modpack and on the bottom-right, you should find a drop-down that allows you to select the version. Ensure `Drehmal 2.2.2f for 1.20.1 - [release]` is selected. Press OK. 
@@ -86,7 +129,9 @@ At this point, you should have found the "Drehmal" modpack. Select the modpack a
 
 After pressing OK, the modpack will download and install. After that finishes, your instance should be ready to play. Double click or highlight the icon and press Launch to play.
 
-## (OPTIONAL) Installing QOL Mods, shaders, and resource packs.
+-->
+
+## (OPTIONAL) Installing Additional Mods, Shaders, and Resource Packs
 Although optional, you can also install a variety of quality-of-life mods through to make your experience better.
 
 > [!NOTE]
@@ -101,10 +146,12 @@ To install a mod, search for the mod using the search bar and select it by click
 
 The following QOL mods are not required, but can be installed make your experience better:
 
-* Distant Horizons - Allows you to render terrain at extreme distances using LODs without significant performance hits.
-
-  --OR--
+* Distant Horizons - Allows you to render terrain at extreme distances using LODs without a significant performance hit.
+* --OR--
 * Voxy - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism. The download for this mod can be found [here](https://github.com/LunaticWasTaken/voxy). **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders that *should* work with Voxy pre-installed in the modpack.
 * Presence-Footsteps - Revamped sounds and audio for block interactions. 
 * AmbientSounds - Adds a rich ambience to the minecraft world.
 * Falling Leaves - Adds a neat little particle effect to leaf blocks.
+
+
+## Credits
