@@ -149,7 +149,7 @@ After pressing OK, the modpack will download and install. After that finishes, y
 Although optional, you can also install a variety of client-side, quality-of-life mods through to make your experience better.
 
 > [!NOTE]
-> The full mod list for this modpack can be found [here](https://www.drehmal.net/2-2-mod-list). Performance boosting mods, dynamic lighting, zoom, and a shader engine is already included.
+> The full mod list for this modpack can be found [here](https://www.drehmal.net/2-2-mod-list). Performance boosting mods, dynamic lighting, zoom, and a shader engine is already included with the modpack.
 
 
 To install additional mods, select your instance on the main Prism Launcher window by clicking on the instance icon once, and clicking "Edit" on the right side of the window. A window that changes the settings for this instance should open. On the left side of the window, select the "Mods" section. On this section, you will see the mods installed on this instance. To install more mods, press "Download Mods" on the right side of the window. A window opens that allows you to search for, download, and install mods easily. 
@@ -166,14 +166,45 @@ Search for the mod using the search bar and select it by clicking on the desired
 
 
 Some examples of QOL mods that can elevate your Minecraft experience:
-
+<!--
 * Distant Horizons - Allows you to render terrain at extreme distances using LODs without a significant performance hit. All shaders should be compatible with this mod.
 * --OR--
 * [Voxy](https://github.com/LunaticWasTaken/voxy) - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism, and must be installed manually through their repository. **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders pre-installed within the modpack that *should* work with Voxy.
+-->
 * Presence-Footsteps - Revamped sounds and audio for block interactions. 
 * AmbientSounds - Adds a rich ambience to the minecraft world.
 * Falling Leaves - Adds a neat little particle effect to leaf blocks.
 * Sound Physics Remastered - Adds realistic sound effects.
+
+Resource Packs and Shader Packs can be downloaded and installed similarly to how you install mods. Instead of opening the "Mods" section in your instance's console window, simply select Resource Packs or Shader Packs on the left and download and install them as you would with mods.
+
+### Voxy and Distant Horizons - Extend your render distance
+Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). However, there are distinct differences, each presenting with its own benefits and drawbacks.
+
+```
+Voxy: 
++ Higher performance
++ High resolution textured LODs
+- Limited shader support
+- Early development phase
+
+Distant Horizons:
++ Full shader support
++ Fully developed mod
+- Lower resolution flat LODs
+```
+
+Both mods are included in the modpack, but are disabled by default. If you want to use one of these mods, you can find them in the list of mods within the "Mods" section when you edit your modpack instance. 
+
+> [!WARNING]
+> Do not enable both mods at the same time. The mods may conflict with each other and may cause errors or prevent your instance from launching!
+
+> [!NOTE]
+> The modpack comes pre-installed with a set of shaders that should be compatible with Voxy. You can find a full list of compatible shaders [here](https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953).
+
+> [!TIP]
+> Using Voxy? Import the world map when playing multiplayer by using `/voxy import world "drehmal"` to get the mod working instantly without needing to discover chunks!
+
 
 ## Updating Modpack
 
