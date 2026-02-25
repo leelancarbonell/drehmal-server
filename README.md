@@ -203,7 +203,7 @@ Both mods are included in the modpack, but are disabled by default. If you want 
 > The modpack comes pre-installed with a set of shaders that should be compatible with Voxy. You can find a full list of compatible shaders [here](https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953).
 
 > [!TIP]
-> Using Voxy? You can import the world file for Drehmal so you can get Voxy to start rendering far distances without needing to discover chunks! Download the world file [here](https://drive.google.com/file/d/14p5Z7mGCRNh5qkEt4wkOdtlu1rD4G7_Q/view?usp=sharing) and add it to the "Worlds" list when editing your instance. You can then import the world map when joining the server by typing `/voxy import world "§6§lDrehmal： §6§lAPOTHEOSIS"` in the chat.
+> Using Voxy? You can import the world file for Drehmal so you can get Voxy to start rendering far distances without needing to discover chunks! Download the world file [here](https://drive.google.com/file/d/14p5Z7mGCRNh5qkEt4wkOdtlu1rD4G7_Q/view?usp=sharing) and add it to the "Worlds" list when editing your instance. You can then import the world map when joining the server by copying and pasting `/voxy import world "§6§lDrehmal： §6§lAPOTHEOSIS"` in the chat.
 
 
 ## Updating Modpack
