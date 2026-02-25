@@ -183,7 +183,7 @@ Resource Packs and Shader Packs can be downloaded and installed similarly to how
 ## Voxy/Distant Horizons - Dramatically extend your render distance! (HIGHLY RECOMMENDED)
 Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). For a map such as this, it is highly recommend you install one of these mods so you can get a massive view of the map's beautiful landscape. 
 
-There are, however, a few distinct differences between the two mods, each presenting with its own benefits and drawbacks that are important to consider when you are choosing to enable one or the other.
+
 
 ### Voxy:
 ![voxy](https://cdn.modrinth.com/data/cached_images/480a6c99db0149653a13152e5247216b771f9ead.jpeg)
@@ -191,20 +191,17 @@ There are, however, a few distinct differences between the two mods, each presen
 ### Distant Horizons
 ![distant horizons](https://wsrv.nl/?url=https%3A%2F%2Fmedia.forgecdn.net%2Fattachments%2F880%2F249%2Fdh-512-rd.jpg&n=-1)
 
-```
-Voxy: 
-+ Higher performance
-+ High resolution textured LODs
-- Limited shader support - all shaders need to explicitly support Voxy
-- Early development phase
+There are, however, a few distinct differences between the two mods, each presenting with its own benefits and drawbacks that are important to consider when you are choosing to enable one or the other.
 
-Distant Horizons:
-+ Full shader support
-+ Fully developed and established mod
-- Lower resolution flat LODs
-```
 
-For a more comprehensive comparison between the two mods, check out the video below.
+| Feature | Voxy | Distant Horizons |
+|----------|--------|------------------|
+| Performance | ✅ Higher performance | ⚠️ Lower performance |
+| LOD Quality | ✅ High resolution textured LODs | ❌ Lower resolution flat LODs |
+| Shader Support | ❌ Limited – shaders must explicitly support Voxy | ✅ Full shader support |
+| Development Status | ⚠️ Early development phase | ✅ Fully developed & established |
+
+<br>For a more comprehensive comparison between the two mods, check out the video below.
 
 
 <a href="https://www.youtube.com/watch?v=9kWQQUn6Sgc">
