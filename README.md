@@ -204,11 +204,9 @@ Distant Horizons:
 - Lower resolution flat LODs
 ```
 
-For a more comprehensive comparison between the two mods, check out the video below.
+For a more comprehensive comparison between the two mods, check out the video here.
 
 - [Voxy VS Distant Horizons | Get INSANE Render Distance in Minecraft](https://www.youtube.com/watch?v=9kWQQUn6Sgc)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9kWQQUn6Sgc?si=UiTcbF-mXZmag5zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Both mods are included in the modpack, but are disabled by default. If you want to use one of these mods, you can find them in the list of mods within the "Mods" section when you edit your modpack instance. 
 
