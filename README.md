@@ -98,9 +98,11 @@ Mods:
 - Axiom - World Edit Utility
 - BetterF3 - Better Debug Menu
 - Cloth Config - API Dependency for BetterF3
+- Distant Horizons - Established extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Jade - "What am I looking at" UI
 - Just Enough Items - Item and recipe menu within your inventory
 - Simple Voice Chat - Voice Chat within Minecraft
+- Voxy - Newly released extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Xaero's Minimap - Minimap
 - Xaero's World Map - Fullscreen Map
 - You're in Grave Danger - Death grave
