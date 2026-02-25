@@ -207,7 +207,7 @@ Distant Horizons:
 For a more comprehensive comparison between the two mods, check out the video below.
 
 
-<a href="https://www.youtube.com/watch?v=9kWQQUn6Sgc">
+<a href="https://www.youtube.com/watch?v=9kWQQUn6Sgc" target="_blank">
   <img src="https://cdn.discordapp.com/attachments/672480450144370691/1476327598253412515/eyTnTDxV3h7bweDzoOhARWltIKZFzRlWREBARVJUQAv8DtF6OUVdFQ50AAAAASUVORK5CYII.png?ex=69a0b8b8&is=699f6738&hm=6ac739867235b8c236e178bee279b09973256e8966ee20da619ef952a5cde38a&" alt="YouTube Video" width="600">
 </a>
 
