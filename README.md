@@ -180,21 +180,35 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 
 Resource Packs and Shader Packs can be downloaded and installed similarly to how you install mods. Instead of opening the "Mods" section in your instance's console window, simply select Resource Packs or Shader Packs on the left and download and install them as you would with mods.
 
-### Voxy/Distant Horizons - Dramatically extend your render distance!
-Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). However, there are distinct differences, each presenting with its own benefits and drawbacks.
+## Voxy/Distant Horizons - Dramatically extend your render distance! (HIGHLY RECOMMENDED)
+Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). For a map such as this, it is highly recommend you install one of these mods so you can get a massive view of the map's beautiful landscape. 
+
+There are, however, a few distinct differences between the two mods, each presenting with its own benefits and drawbacks that are important to consider when you are choosing to enable one or the other.
+
+### Voxy:
+![voxy](https://cdn.modrinth.com/data/cached_images/480a6c99db0149653a13152e5247216b771f9ead.jpeg)
+
+### Distant Horizons
+![distant horizons](https://wsrv.nl/?url=https%3A%2F%2Fmedia.forgecdn.net%2Fattachments%2F880%2F249%2Fdh-512-rd.jpg&n=-1)
 
 ```
 Voxy: 
 + Higher performance
 + High resolution textured LODs
-- Limited shader support
+- Limited shader support - all shaders need to explicitly support Voxy
 - Early development phase
 
 Distant Horizons:
 + Full shader support
-+ Fully developed mod
++ Fully developed and established mod
 - Lower resolution flat LODs
 ```
+
+For a more comprehensive comparison between the two mods, check out the video below.
+
+- [Voxy VS Distant Horizons | Get INSANE Render Distance in Minecraft](https://www.youtube.com/watch?v=9kWQQUn6Sgc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9kWQQUn6Sgc?si=UiTcbF-mXZmag5zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Both mods are included in the modpack, but are disabled by default. If you want to use one of these mods, you can find them in the list of mods within the "Mods" section when you edit your modpack instance. 
 
