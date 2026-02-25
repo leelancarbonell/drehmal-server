@@ -203,13 +203,13 @@ There are, however, a few distinct differences between the two mods, each presen
 -->
 
 
-### Voxy vs Distant Horizons — Feature Comparison
+### Voxy vs Distant Horizons - Feature Comparison
 
 | Feature | **Voxy** | **Distant Horizons** |
 |----------|----------|----------------------|
 | **Level of Detail (LOD) Rendering** | High-resolution textured LODs | Automatically generated simplified LODs |
 | **Performance (FPS / Efficiency)** | Higher FPS and lower CPU usage in most cases | Good performance, but heavier at very high distances |
-| **Shader Support** | Limited — requires explicit shader support for Voxy | Broad shader compatibility |
+| **Shader Support** | Limited - requires explicit shader support for Voxy | Broad shader compatibility |
 | **Visual Quality** | More detailed distant terrain | Simpler, flatter distant terrain |
 | **Resource Usage** | Generally lighter on CPU and VRAM | Uses more RAM and CPU during generation |
 | **Stability & Maturity** | Newer and still evolving | Mature and widely tested |
