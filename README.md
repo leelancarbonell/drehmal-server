@@ -178,7 +178,7 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 
 Resource Packs and Shader Packs can be downloaded and installed similarly to how you install mods. Instead of opening the "Mods" section in your instance's console window, simply select Resource Packs or Shader Packs on the left and download and install them as you would with mods.
 
-### Voxy and Distant Horizons - Extend your render distance
+### Voxy/Distant Horizons - Dramatically extend your render distance!
 Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). However, there are distinct differences, each presenting with its own benefits and drawbacks.
 
 ```
@@ -203,7 +203,7 @@ Both mods are included in the modpack, but are disabled by default. If you want 
 > The modpack comes pre-installed with a set of shaders that should be compatible with Voxy. You can find a full list of compatible shaders [here](https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953).
 
 > [!TIP]
-> Using Voxy? You can import the world file for Drehmal so you can get Voxy to start rendering far distances without needing to discover chunks! Download the world file [here](https://drive.google.com/file/d/14p5Z7mGCRNh5qkEt4wkOdtlu1rD4G7_Q/view?usp=sharing) and add it to the "Worlds" list when editing your instance. You can then import the world map when joining the server by copying and pasting `/voxy import world "§6§lDrehmal： §6§lAPOTHEOSIS"` in the chat.
+> Using Voxy? You can import the world file for Drehmal so you can get Voxy to start rendering far distances without needing to discover chunks! Download the world file [here](https://drive.google.com/file/d/14p5Z7mGCRNh5qkEt4wkOdtlu1rD4G7_Q/view?usp=sharing) and add it to your list of worlds when editing your instance within the "Worlds" section. You can then import the world map when joining the server by copying and pasting `/voxy import world "§6§lDrehmal： §6§lAPOTHEOSIS"` in the chat.
 
 
 ## Updating Modpack
