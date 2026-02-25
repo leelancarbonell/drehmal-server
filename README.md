@@ -6,7 +6,7 @@ This GitHub page serves as a guide to install the client for my Drehmal survival
 ![Drehmal Apotheosis ice](https://static.wixstatic.com/media/a539b0_26044d9ff9f343deaebcc6df8bee7436~mv2.png/v1/fit/w_2380,h_1169,q_90,enc_avif,quality_auto/a539b0_26044d9ff9f343deaebcc6df8bee7436~mv2.png)
 ![Drehmal Apotheosis lava castle](https://static.wixstatic.com/media/a539b0_ac13eaceee51493da4d7a43092289553~mv2.png/v1/fit/w_1920,h_1080,q_90,enc_avif,quality_auto/a539b0_ac13eaceee51493da4d7a43092289553~mv2.png)
 
-This server will be running the Drehmal: Apotheosis survival-adventure map. A massive, rich open world with an original storyline, many custom gameplay features, expansive lore, and more. The client will be using a custom curated version of Drehmal's latest modpack, Apotheosis v2.2.2, created for Minecraft Java Edition 1.20.1.
+This server will be running the Drehmal: Apotheosis survival-adventure map. A massive, rich open world with an original storyline, many custom gameplay features, expansive lore, and more. In order to join the server and play this map, it is required to install a modified version of Drehmal's latest modpack, Apotheosis v2.2.2 for Minecraft Java Edition 1.20.1.
 
 The main page for the map and the wiki page can be found below.
 
@@ -128,7 +128,7 @@ The image below shows the Import menu when creating a new instance with an examp
 ![prism import modpack](/assets/import%20modpack.png)
 
 > [!CAUTION]
-> **DO NOT USE THE LINK FOUND IN THE SCREENSHOT. It links to a development build and is different from latest release!!**
+> **DO NOT USE THE LINK FOUND IN THE SCREENSHOT. This links to a development modpack and it is different from latest release!!**
 
 Once you have located the modpack on the Import menu, press "OK" to install the modpack and create the instance. Once created, your instance should be ready to play. Double click or highlight the icon and press "Launch" to play. On your first launch of this instance, Prism will also download and install Minecraft.
 
@@ -177,7 +177,7 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 
 ## Updating Modpack
 
-In case the modpack is updated with more mods post-release, you will have to download the modpack and import it into your existing instance. Find the latest custom modpack release within the "Releases" section on the right side of the main repository webpage. 
+In case the modpack is updated with more mods post-release, you will need to download the modpack and import it into your existing instance. Find the latest custom modpack release within the "Releases" section on the right side of the main repository webpage. 
 
 > [!IMPORTANT]
 > Unlike creating a new instance where you simply copy and pasted the file link, you are required to download the `.mrpack` modpack file to update your instance's modpack. 
