@@ -93,21 +93,29 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 <summary>Added Mods and Shaders</summary>
 <br>The following mods and shaders have been added in addition to the base modpack.
 
-Mods:
+### Mods:
 - AppleSkin - Hunger-related HUD improvements
 - Axiom - World Edit Utility
 - BetterF3 - Better Debug Menu
+- Cave Dust - Floating dust underground
+- Cubes Without Borders - Borderless Fullscreen in Minecraft
 - Cloth Config - API Dependency for BetterF3
 - Distant Horizons - Established extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
+- Easy Shulker Boxes - Make shulker boxes easier to use
+- Falling Leaves - Falling leaves particle effects from trees
+- Horseman - Horse-riding QOL features
 - Jade - "What am I looking at" UI
 - Just Enough Items - Item and recipe menu within your inventory
+- Particle Rain - More pleasant rain visuals
+- Pick Up Notifier - Displays a pop-up of what and how many items you pick up
 - Simple Voice Chat - Voice Chat within Minecraft
+- Subtle Effects - Adds a different subtle effects for a variety of actions
 - Voxy - Newly released extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Xaero's Minimap - Minimap
 - Xaero's World Map - Fullscreen Map
 - You're in Grave Danger - Death grave
 
-Shaders: (These shaders *should* all be compatible with the Voxy render distance extending mod)
+### Shaders: 
 - Bliss Shader - Unstable
 - BSL Shaders
 - Eclipse Shader - Fork of Bliss, HIGHLY RECOMMENDED, Unstable
@@ -116,6 +124,8 @@ Shaders: (These shaders *should* all be compatible with the Voxy render distance
 - Shrimple
 - Solas Shader
 - Sundial Lite
+
+(These shaders *should* all be compatible with the Voxy render distance extending mod)
 
 </details>
 
@@ -173,16 +183,15 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 * --OR--
 * [Voxy](https://github.com/LunaticWasTaken/voxy) - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism, and must be installed manually through their repository. **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders pre-installed within the modpack that *should* work with Voxy.
 -->
-* Presence-Footsteps - Revamped sounds and audio for block interactions. 
-* AmbientSounds - Adds a rich ambience to the minecraft world.
-* Falling Leaves - Adds a neat little particle effect to leaf blocks.
-* Sound Physics Remastered - Adds realistic sound effects.
+* [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) - Revamped sounds and audio for block interactions. 
+* [AmbientSounds](https://modrinth.com/mod/ambientsounds) - Adds a rich ambience to the minecraft world.
+* [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) - A resource pack that works with the already included Entity Model Features that adds more dynamic animations to Minecraft.
+* [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) - Adds realistic attenuation, reverberation, and absorption through blocks.
 
 Resource Packs and Shader Packs can be downloaded and installed similarly to how you install mods. Instead of opening the "Mods" section in your instance's console window, simply select Resource Packs or Shader Packs on the left and download and install them as you would with mods.
 
 ## Voxy/Distant Horizons - Dramatically extend your render distance! (HIGHLY RECOMMENDED)
 Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). For a map such as this, it is highly recommend you install one of these mods so you can get a massive view of the map's beautiful landscape. 
-
 
 
 ### Voxy:
@@ -215,15 +224,13 @@ There are, however, a few distinct differences between the two mods, each presen
 | **Stability & Maturity** | Newer and still evolving | Mature and widely tested |
 
 
-
 <br>For a more comprehensive comparison between the two mods, check out the video below.
-
 
 <a href="https://www.youtube.com/watch?v=9kWQQUn6Sgc">
   <img src="https://cdn.discordapp.com/attachments/672480450144370691/1476327598253412515/eyTnTDxV3h7bweDzoOhARWltIKZFzRlWREBARVJUQAv8DtF6OUVdFQ50AAAAASUVORK5CYII.png?ex=69a0b8b8&is=699f6738&hm=6ac739867235b8c236e178bee279b09973256e8966ee20da619ef952a5cde38a&" alt="YouTube Video" width="600">
 </a>
 
-<br>Both mods are included in the modpack, but are disabled by default. If you want to use one of these mods, you can find them in the list of mods within the "Mods" section when you edit your modpack instance. 
+<br>Both mods are included in the modpack, but are disabled by default. If you want to use one of these mods, you can find and enable them in the list of mods inside the "Mods" section when you edit your modpack instance. 
 
 > [!WARNING]
 > Do not enable both mods at the same time. The mods may conflict with each other and may cause errors or prevent your instance from launching!
@@ -237,12 +244,15 @@ There are, however, a few distinct differences between the two mods, each presen
 
 ## Updating Modpack
 
-In case the modpack is updated with more mods post-release, you will need to download the modpack and import it into your existing instance. Find the latest custom modpack release within the "Releases" section on the right side of the main repository webpage. 
+In case the modpack is updated post-release, you will need to download the modpack and import it into your existing instance. Find the latest custom modpack release within the "Releases" section on the right side of the main repository webpage. 
 
 > [!IMPORTANT]
 > Unlike creating a new instance where you simply copy and pasted the file link, you are required to download the `.mrpack` modpack file to update your instance's modpack. 
 
 Click on the file link to download the file. Once downloaded, open Prism and select your existing instance that contains your outdated modpack by single clicking on the associated icon, and click "Edit" on the right side of the main window. Once the Console window for your instance opens, select "Modrinth" on the left side of the window, and click "Update From File". A file picker window should have opened. Locate the updated `.mrpack` modpack file you just downloaded and open it. Prism will then automatically install the new mods and will then prompt you if the update is successful. From here, installation should be successful, and you can launch your instance and start playing with the updated modpack.
+
+> [!NOTE]
+> If you added any additional mods that are not part of the original modpack, Prism should keep those mods intact when updating. However, it is always good practice to keep a back-up in case something does go wrong.
 
 ## Credits
 * Drehmal - https://www.drehmal.net/
