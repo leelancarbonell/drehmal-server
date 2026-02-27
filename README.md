@@ -190,7 +190,7 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 
 Resource Packs and Shader Packs can be downloaded and installed similarly to how you install mods. Instead of opening the "Mods" section in your instance's console window, simply select Resource Packs or Shader Packs on the left and download and install them as you would with mods.
 
-## Voxy/Distant Horizons - Dramatically extend your render distance! (HIGHLY RECOMMENDED)
+## Voxy/Distant Horizons - Dramatically extend your render distance! (Highly Recommended!)
 Voxy and Distant Horizons are two very similar mods that try to achieve a similar goal&mdash;massively extend the render distance of Minecraft's landscape at a low performance cost by using LODs (level of detail). For a map such as this, it is highly recommend you install one of these mods so you can get a massive view of the map's beautiful landscape. 
 
 
@@ -236,7 +236,7 @@ There are, however, a few distinct differences between the two mods, each presen
 > Do not enable both mods at the same time. The mods may conflict with each other and may cause errors or prevent your instance from launching!
 
 > [!NOTE]
-> The modpack comes pre-installed with a set of shaders that should be compatible with Voxy. You can find a full list of compatible shaders [here](https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953).
+> The modpack comes pre-installed with a set of shaders that should be compatible with Voxy. You can find a full list of compatible shaders [here](https://samalando.com/voxy/shaders) and [here](https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953).
 
 > [!TIP]
 > Using Voxy? You can import the world file for Drehmal so you can get Voxy to start rendering far distances without needing to discover chunks! Download the world file [here](https://drive.google.com/file/d/14p5Z7mGCRNh5qkEt4wkOdtlu1rD4G7_Q/view?usp=sharing) and add it to your list of worlds when editing your instance within the "Worlds" section. You can then import the world map when joining the server by copying and pasting `/voxy import world "§6§lDrehmal： §6§lAPOTHEOSIS"` in the chat.
@@ -258,5 +258,6 @@ Click on the file link to download the file. Once downloaded, open Prism and sel
 * Drehmal - https://www.drehmal.net/
 * Prism Launcher - https://prismlauncher.org/
 * Modrinth - https://modrinth.com/
-* Voxy Compatible Shaders - https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953
+* Voxy Compatible Shaders by Samalando - https://samalando.com/voxy/shaders
+* Voxy Compatible Shaders by appleneko2001 - https://gist.github.com/appleneko2001/51dcf842c934db4c6201146f2e594953
 * Images in the introduction section are taken from the Drehmal website and is rightfully owned by the Drehmal team and Lux Nova Studios.
