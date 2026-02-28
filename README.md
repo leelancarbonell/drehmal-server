@@ -102,13 +102,18 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 - Cloth Config - API Dependency for BetterF3
 - Distant Horizons - Established extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Easy Shulker Boxes - Make shulker boxes easier to use
+- EMI - A more featureful recipe viewer, replacing JEI
 - Falling Leaves - Falling leaves particle effects from trees
 - Horseman - Horse-riding QOL features
+- Inventory Profiles Next - Inventory QOL tweaks
 - Jade - "What am I looking at" UI
 - Just Enough Items - Item and recipe menu within your inventory
+- Leaves Be Gone - Leaves disappear after cutting down trees
 - Particle Rain - More pleasant rain visuals
 - Pick Up Notifier - Displays a pop-up of what and how many items you pick up
+- RightClickHarvest - Right click crops to harvest, buffs hoes
 - Simple Voice Chat - Voice Chat within Minecraft
+- Status Effect Bars - Tweaks status effect icons to display duration
 - Subtle Effects - Adds a different subtle effects for a variety of actions
 - Voxy - Newly released extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Xaero's Minimap - Minimap
@@ -184,7 +189,7 @@ Some examples of QOL mods that can elevate your Minecraft experience:
 * [Voxy](https://github.com/LunaticWasTaken/voxy) - Same as Distant Horizons, but LOD quality is much higher while still delivering exceptional performance. A backport is required and cannot be found using Prism, and must be installed manually through their repository. **Be warned!! Only certain shaders are compatible with this mod.** I have included a set of shaders pre-installed within the modpack that *should* work with Voxy.
 -->
 * [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) - Revamped sounds and audio for block interactions. 
-* [AmbientSounds](https://modrinth.com/mod/ambientsounds) - Adds a rich ambience to the minecraft world.
+* [Ambient Sounds](https://modrinth.com/mod/ambientsounds) - Adds a rich ambience to the minecraft world.
 * [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) - A resource pack that works with the already included Entity Model Features that adds more dynamic animations to Minecraft.
 * [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) - Adds realistic attenuation, reverberation, and absorption through blocks.
 
