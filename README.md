@@ -118,6 +118,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 - Voxy - Newly released extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Xaero's Minimap - Minimap
 - Xaero's World Map - Fullscreen Map
+- Yes Steve Model - Allows users to use custom player models. Find published models on the links found on the [Modrinth Modpage](https://modrinth.com/mod/yes-steve-model).
 - You're in Grave Danger - Death grave
 
 ### Shaders: 
