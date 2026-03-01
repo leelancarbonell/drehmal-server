@@ -94,6 +94,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 <br>The following mods and shaders have been added in addition to the base modpack.
 
 ### Mods:
+- Amecs - Allows for multi-key key-binds, utilizing modifier keys (alt, control and shift), giving users a larger variety of key-binds to use for an action.
 - AppleSkin - Hunger-related HUD improvements
 - Axiom - World Edit Utility
 - BetterF3 - Better Debug Menu
@@ -105,7 +106,6 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 - EMI - A more featureful recipe viewer, replacing JEI
 - Falling Leaves - Falling leaves particle effects from trees
 - Horseman - Horse-riding QOL features
-- Inventory Profiles Next - Inventory QOL tweaks
 - Jade - "What am I looking at" UI
 - Just Enough Items - Item and recipe menu within your inventory
 - Leaves Be Gone - Leaves disappear after cutting down trees
@@ -118,7 +118,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 - Voxy - Newly released extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Xaero's Minimap - Minimap
 - Xaero's World Map - Fullscreen Map
-- Yes Steve Model - Allows users to use custom player models. Find published models on the links found on the [Modrinth Modpage](https://modrinth.com/mod/yes-steve-model).
+- Yes Steve Model - Allows users to use custom player models. Find published models on the links found on the [Modrinth Modpage](https://modrinth.com/mod/yes-steve-model). **Disabled by default.**
 - You're in Grave Danger - Death grave
 
 ### Shaders: 
