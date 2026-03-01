@@ -115,6 +115,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 - Simple Voice Chat - Voice Chat within Minecraft
 - Status Effect Bars - Tweaks status effect icons to display duration
 - Subtle Effects - Adds a different subtle effects for a variety of actions
+- Traveler's Backpack - Adds a backpack to encourage exploration.
 - Voxy - Newly released extended render distance mod (not enabled - see [here](https://github.com/leelancarbonell/drehmal-server#voxy-and-distant-horizons---extend-your-render-distance))
 - Xaero's Minimap - Minimap
 - Xaero's World Map - Fullscreen Map
