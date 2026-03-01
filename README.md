@@ -139,7 +139,7 @@ With a fully setup Prism Launcher client, an instance can now be created which w
 To get started on creating your new instance, make sure you are on the main window on Prism, and select "Add Instance" on the top-left of the window. This will open a new window that will let you create your instance and select your modpack. Enter the name you want your instance to be labeled, and then select "Import" on the left side of the window. Here you will enter the location of the custom modpack. 
 
 > [!IMPORTANT]
-> To find the custom modpack file, locate the "Releases" section on the right side of the main repository webpage. Click on the link for the latest release. On the latest release page, you will find details about this release and the `.mrpack` modpack file. **You do not need to download the file.** Copy the link address to the modpack file and paste it to the "Local file or link to a direct download:" text input within the import menu in Prism. 
+> To find the custom modpack file, locate the "Releases" section on the right side of the main repository webpage. Click on the link for the latest release. On the latest release page, you will find details about this release, and below that, you will find the `.mrpack` modpack file within the "Assets" setting. **You do not need to download the file!** Right-click the link for the modfile, copy the link address, and paste it to the "Local file or link to a direct download:" text input box within the Import menu in Prism. 
 
 The image below shows the Import menu when creating a new instance with an example link pointing to the modpack.
 
